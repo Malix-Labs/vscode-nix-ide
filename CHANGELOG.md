@@ -2,6 +2,29 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.6.0](https://github.com/nix-community/vscode-nix-ide/compare/v0.4.24...v0.6.0) (2026-03-29)
+
+
+### ⚠ BREAKING CHANGES
+
+* remove special highlight of comment remarks like todo/fixme
+
+### Features
+
+* allow "serverPath" to be a list of arguments ([#509](https://github.com/nix-community/vscode-nix-ide/issues/509)) ([6a1835a](https://github.com/nix-community/vscode-nix-ide/commit/6a1835a5b5c85b1d9de4fbf2480b315095a19a30))
+* commit generated syntax to repo ([effbf34](https://github.com/nix-community/vscode-nix-ide/commit/effbf3494a43250a537834805b305793994b9ca8)), closes [#512](https://github.com/nix-community/vscode-nix-ide/issues/512)
+* **manifest:** provide `flake.lock` format ([#507](https://github.com/nix-community/vscode-nix-ide/issues/507)) ([79876a0](https://github.com/nix-community/vscode-nix-ide/commit/79876a0fa762968a9816235f0bcf88c91a7640dd))
+* warn if nis-instantiate is not available in PATH ([28e38ab](https://github.com/nix-community/vscode-nix-ide/commit/28e38ab1c9377016f0669e06d1f1866d6c4a7502))
+
+
+### Bug Fixes
+
+* restore display name to fix conflict ([36d0e50](https://github.com/nix-community/vscode-nix-ide/commit/36d0e501ccc8563c88f2df94bd01ce2211735952))
+* **syntax:** syntax highlighting issue with colon after interpolation in nested attrset ([aa8a59d](https://github.com/nix-community/vscode-nix-ide/commit/aa8a59d845efa5bbe69713dfddadd345611e632b)), closes [#355](https://github.com/nix-community/vscode-nix-ide/issues/355)
+
+
+* remove special highlight of comment remarks like todo/fixme ([fe0a576](https://github.com/nix-community/vscode-nix-ide/commit/fe0a5763cbe937ffcb00846b053b9928fc919f7e)), closes [#476](https://github.com/nix-community/vscode-nix-ide/issues/476)
+
 ### [0.5.5](https://github.com/nix-community/vscode-nix-ide/compare/v0.5.4...v0.5.5) (2025-12-27)
 
 
